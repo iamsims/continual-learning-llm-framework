@@ -1,12 +1,11 @@
 """Drift detection package for text data."""
 
-from .main import BatchDriftDetector, DriftDetectionConfig, DriftDetectionInput, DriftDetectionOutput
+from .main import DriftDetector, DriftDetectionConfig, DriftDetectionOutput
 from .structures import DriftMethod, DriftSeverity
 
 __all__ = [
-    'BatchDriftDetector',
+    'DriftDetector',
     'DriftDetectionConfig',
-    'DriftDetectionInput',
     'DriftDetectionOutput',
     'DriftMethod',
     'DriftSeverity',
